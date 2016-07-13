@@ -54,6 +54,17 @@ public class main {
             both[i] = tList.get(i);
         }
 
+//        ArrayList<T> a1=new ArrayList<>();
+//        a1.addAll(Arrays.asList(ts1));
+//        a1.addAll(Arrays.asList(ts2));
+//        List<T> ll=new LinkedList<>();
+//        for (T t:a1){
+//            if (!ll.contains(t)){
+//                ll.add(t);
+//            }
+//        }
+//        return (T[])Arrays.copyOfRange(ll.toArray(),0,ll.size(),ts1.getClass());
+
         return both;
         // 可改动区域结束
     }

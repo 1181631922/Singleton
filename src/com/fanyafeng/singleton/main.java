@@ -54,6 +54,11 @@ public class main {
             both[i] = tList.get(i);
         }
 
+//        Set<T> a1=new TreeSet<>();
+//        a1.addAll(Arrays.asList(ts1));
+//        a1.addAll(Arrays.asList(ts2));
+//        return (T[])Arrays.copyOfRange(a1.toArray(),0,a1.size(),ts1.getClass());
+
 //        ArrayList<T> a1=new ArrayList<>();
 //        a1.addAll(Arrays.asList(ts1));
 //        a1.addAll(Arrays.asList(ts2));
